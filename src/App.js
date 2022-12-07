@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+
+
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import FormEx from './Components/FormEx';
+import HooksEx from './Components/HooksEx';
+import ClickCounter from './Hoc/ClickCounter';
+import HoverCounter from './Hoc/HoverCounter';
+import Aboutus from './Project/Aboutus';
+import Contactus from './Project/contactus';
+import Home from './Project/Home';
+import ButtonAppBar from './Project/navBarDemo';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <FormEx/>
+</div>
   );
 }
 

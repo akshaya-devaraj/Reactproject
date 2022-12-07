@@ -1,0 +1,14 @@
+.head1
+{
+    color:rgb(244, 102, 206);
+    background-color: rgb(251, 246, 251);
+    background-image: linear-gradient(rgb(7, 7, 232),rgb(13, 214, 13));
+    
+}
+.para
+{
+    color:aqua;
+    background-color: rgb(244, 225, 196);
+    background-image: linear-gradient(rgb(249, 97, 122),rgb(245, 17, 138));
+    word-spacing: 5px;
+}
